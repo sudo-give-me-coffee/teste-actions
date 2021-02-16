@@ -1,3 +1,5 @@
 #!/bin/bash
 
-echo ${HOME}
+cd ${HOME}
+
+echo processadores $(nproc)
