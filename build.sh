@@ -38,5 +38,6 @@ cd ${HOME}
 kdesrc-build --pretend
 git clone https://invent.kde.org/sdk/kdesrc-build
 cd kdesrc-build
+sudo ./kdesrc-build --initial-setup
 ./kdesrc-build --stop-on-failure konsole
 
